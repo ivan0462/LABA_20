@@ -11,15 +11,4 @@ int main()
 		MathFuncs::MyMathFuncs::S(a, b) << endl;
 	cout << "P(rectangle) = " <<
 		MathFuncs::MyMathFuncs::P(a, b) << endl;
-		
-	//try
-	//{
-	//	cout << "a * 0 = " <<
-	//		MathFuncs::MyMathFuncs::S(a, 0) << endl;
-	//}
-	//catch (const invalid_argument &e)
-	//{
-	//	cout << "Caught exception: " << e.what() << endl;
-	//}
-	//return 0;
 }
